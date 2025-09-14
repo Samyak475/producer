@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/producer")
 public class ProducerController {
 
-    @GetMapping("/{id")
+    @GetMapping("/{id}")
     public  String getProducer(@PathVariable String id){
         return "Hi from producer with id "+id;
     }
